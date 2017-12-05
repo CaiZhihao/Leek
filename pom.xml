@@ -92,7 +92,6 @@
             </exclusions>
         </dependency>
 
-        <!-- 分库分表插件 -->
         <dependency>
             <groupId>com.twitter</groupId>
             <artifactId>carbonite</artifactId>
@@ -105,18 +104,21 @@
             <groupId>com.esotericsoftware.kryo</groupId>
             <artifactId>kryo</artifactId>
             <version>2.24.0</version>
+            <scope>${scope}</scope>
         </dependency>
 
         <dependency>
             <groupId>org.clojure</groupId>
             <artifactId>clojure</artifactId>
             <version>1.8.0</version>
+            <scope>${scope}</scope>
         </dependency>
 
         <dependency>
             <groupId>com.twitter</groupId>
             <artifactId>chill-java</artifactId>
             <version>0.9.2</version>
+            <scope>${scope}</scope>
         </dependency>
 
         <!-- kafka -->
@@ -164,20 +166,6 @@
             <activation>
                 <activeByDefault>true</activeByDefault>
             </activation>
-        </profile>
-        <profile>
-            <id>testlocal</id>
-            <properties>
-                <env>testlocal</env>
-                <scope>provided</scope>
-            </properties>
-        </profile>
-        <profile>
-            <id>test</id>
-            <properties>
-                <env>test</env>
-                <scope>provided</scope>
-            </properties>
         </profile>
         <profile>
             <id>pro</id>
