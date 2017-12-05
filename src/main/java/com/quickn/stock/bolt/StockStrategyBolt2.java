@@ -1,4 +1,4 @@
-package com.yingjun.stock.bolt;
+package com.quickn.stock.bolt;
 
 import backtype.storm.task.TopologyContext;
 import backtype.storm.topology.BasicOutputCollector;
@@ -8,8 +8,8 @@ import backtype.storm.tuple.Fields;
 import backtype.storm.tuple.Tuple;
 import backtype.storm.tuple.Values;
 import com.espertech.esper.client.*;
-import com.yingjun.stock.dto.ResultStock;
-import com.yingjun.stock.dto.StockRealTimeEvent;
+import com.quickn.stock.dto.ResultStock;
+import com.quickn.stock.dto.StockRealTimeEvent;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

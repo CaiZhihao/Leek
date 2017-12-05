@@ -1,4 +1,4 @@
-package com.yingjun.stock.spout;
+package com.quickn.stock.spout;
 
 import backtype.storm.spout.SpoutOutputCollector;
 import backtype.storm.task.TopologyContext;
@@ -8,7 +8,7 @@ import backtype.storm.tuple.Fields;
 import backtype.storm.tuple.Values;
 import backtype.storm.utils.Utils;
 import com.alibaba.fastjson.JSONObject;
-import com.yingjun.stock.dto.StockRealTimeEvent;
+import com.quickn.stock.dto.StockRealTimeEvent;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

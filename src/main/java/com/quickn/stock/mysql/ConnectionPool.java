@@ -1,4 +1,4 @@
-package com.yingjun.stock.mysql;
+package com.quickn.stock.mysql;
 
 import com.mchange.v2.c3p0.ComboPooledDataSource;
 import com.mchange.v2.c3p0.DataSources;
@@ -20,7 +20,6 @@ public class ConnectionPool {
     private volatile static ConnectionPool instance;
     private ComboPooledDataSource dataSource;
 
-
     public static ConnectionPool getInstance() {
         if (instance == null) {
             synchronized (ConnectionPool.class) {
@@ -31,7 +30,6 @@ public class ConnectionPool {
         }
         return instance;
     }
-
 
     private ConnectionPool() {
         Properties properties = new Properties();

@@ -1,4 +1,4 @@
-package com.yingjun.stock.dto;
+package com.quickn.stock.dto;
 
 import java.io.Serializable;
 
@@ -34,7 +34,6 @@ public class StockRealTimeEvent implements Serializable{
     private double sellPrice5;
     private long sellCount5;
     private int current; //当前成交手数
-
 
     public String getStockCode() {
         return stockCode;

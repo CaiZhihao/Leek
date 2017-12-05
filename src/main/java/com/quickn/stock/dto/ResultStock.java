@@ -1,4 +1,4 @@
-package com.yingjun.stock.dto;
+package com.quickn.stock.dto;
 
 import java.io.Serializable;
 

@@ -1,10 +1,10 @@
-package com.yingjun.stock.utils;
+package com.quickn.stock.utils;
 
 import backtype.storm.spout.Scheme;
 import backtype.storm.tuple.Fields;
 import backtype.storm.tuple.Values;
 import com.alibaba.fastjson.JSONObject;
-import com.yingjun.stock.dto.StockRealTimeEvent;
+import com.quickn.stock.dto.StockRealTimeEvent;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
